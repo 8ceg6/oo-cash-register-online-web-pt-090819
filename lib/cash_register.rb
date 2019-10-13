@@ -21,8 +21,9 @@ attr_accessor :total, :discount, :@last_trans
         quantity.times do
         @items << title
        
-      end @last_trans=price * quantity
-    end
+      end
+    
+  end
     
     def apply_discount
         new_price = self.total -= @discount*10  
