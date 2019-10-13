@@ -17,11 +17,11 @@ attr_accessor :total, :discount, :last_trans
    
     def add_item(title, price, quantity = 1) 
         self.total += (price * quantity)
-        
+        @last_trans=price * quantity
         quantity.times do
         @items << title
         end
-        @last_trans=price * quantity
+       
       end
     
     def apply_discount
