@@ -41,7 +41,7 @@ attr_accessor :total, :discount, :@last_transaction
          
      
     end
-binding.pry
+
 end
 
 
