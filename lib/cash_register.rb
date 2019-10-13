@@ -11,7 +11,7 @@ attr_accessor :total, :discount, :last_trans
         @total = 0 
         @discount = discount
         @items = []
-        @last_transaction = 0
+        @last_trans = 0
         
     end
    
