@@ -20,7 +20,7 @@ attr_accessor :total, :discount, :@last_trans
       
         quantity.times do
         @items << title
-        @last_trans(price * quantity)
+        @last_trans=price * quantity
       end
     end
     
